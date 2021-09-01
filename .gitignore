@@ -18,3 +18,5 @@ Temp/__Backupscenes/
 Temp/
 
 Assets/SPUM/
+
+*.csproj
