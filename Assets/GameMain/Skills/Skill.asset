@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e75a11be274939ba3831fb887ec73c, type: 3}
+  m_Name: Skill
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  nodes:
+  - id: 0
+  - id: 1
+  - id: 2
+  - id: 3
+  - id: 4
+  edges:
+  - GUID: db260a36-85f2-4e32-8c9d-897da5b6f108
+    inputNodeGUID: b55aaa41-7499-4d6a-a298-fcfed3da2ef1
+    outputNodeGUID: 93e99277-d753-46cd-8100-665aedf5fab9
+    inputFieldName: start
+    inputPortAcceptMultipleEdges: 1
+    outputFieldName: startPoint
+    outputPortacceptMultipleEdges: 1
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 20a8b259-a2a9-4964-85be-04477576baed
+    inputNodeGUID: 3a3751b7-bc9f-4bb2-ba87-3bc25edf63ec
+    outputNodeGUID: 93e99277-d753-46cd-8100-665aedf5fab9
+    inputFieldName: start
+    inputPortAcceptMultipleEdges: 1
+    outputFieldName: startPoint
+    outputPortacceptMultipleEdges: 1
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 3034dd52-512a-46a0-a181-87517e396f0b
+    inputNodeGUID: d383e1aa-78fd-4bed-bf8b-dd421f93e082
+    outputNodeGUID: b55aaa41-7499-4d6a-a298-fcfed3da2ef1
+    inputFieldName: start
+    inputPortAcceptMultipleEdges: 1
+    outputFieldName: end
+    outputPortacceptMultipleEdges: 1
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: fa34e8e9-2bb5-42c1-8fc1-68a58f3bccaf
+    inputNodeGUID: 3a3751b7-bc9f-4bb2-ba87-3bc25edf63ec
+    outputNodeGUID: 7d4a03cd-be6e-4121-bca5-8eac002e4500
+    inputFieldName: test
+    inputPortAcceptMultipleEdges: 0
+    outputFieldName: output
+    outputPortacceptMultipleEdges: 1
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  pinnedElements:
+  - position:
+      serializedVersion: 2
+      x: 675
+      y: 23
+      width: 284
+      height: 269
+    opened: 0
+    editorType:
+      serializedType: SkillEngine.ExposedParameterView, SkillEngine.Editor, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  exposedParameters:
+  - id: 5
+  - id: 6
+  - id: 7
+  startNodeGUID: 93e99277-d753-46cd-8100-665aedf5fab9
+  references:
+    version: 1
+    00000000:
+      type: {class: StartNode, ns: Lomo, asm: Assembly-CSharp}
+      data:
+        GUID: 93e99277-d753-46cd-8100-665aedf5fab9
+        nodeCustomName: 
+        position:
+          serializedVersion: 2
+          x: 227
+          y: 344
+          width: 125
+          height: 75
+        expanded: 0
+        nodeLock: 0
+    00000001:
+      type: {class: TestNode, ns: Lomo, asm: Assembly-CSharp}
+      data:
+        GUID: b55aaa41-7499-4d6a-a298-fcfed3da2ef1
+        nodeCustomName: 
+        position:
+          serializedVersion: 2
+          x: 486
+          y: 429
+          width: 120
+          height: 99
+        expanded: 0
+        nodeLock: 0
+        test: 1
+    00000002:
+      type: {class: TestNode, ns: Lomo, asm: Assembly-CSharp}
+      data:
+        GUID: d383e1aa-78fd-4bed-bf8b-dd421f93e082
+        nodeCustomName: 
+        position:
+          serializedVersion: 2
+          x: 782
+          y: 320
+          width: 120
+          height: 99
+        expanded: 0
+        nodeLock: 0
+        test: 2
+    00000003:
+      type: {class: TestNode, ns: Lomo, asm: Assembly-CSharp}
+      data:
+        GUID: 3a3751b7-bc9f-4bb2-ba87-3bc25edf63ec
+        nodeCustomName: 
+        position:
+          serializedVersion: 2
+          x: 486
+          y: 188
+          width: 120
+          height: 99
+        expanded: 0
+        nodeLock: 0
+        test: 1232
+    00000004:
+      type: {class: ParameterNode, ns: SkillEngine, asm: SkillEngine.Runtime}
+      data:
+        GUID: 7d4a03cd-be6e-4121-bca5-8eac002e4500
+        nodeCustomName: 
+        position:
+          serializedVersion: 2
+          x: 244
+          y: 231
+          width: 139
+          height: 37
+        expanded: 0
+        nodeLock: 0
+        parameterGUID: 54c6fd05-ebad-46db-aed4-dba03d42831f
+        accessor: 0
+    00000005:
+      type: {class: Vector3Parameter, ns: SkillEngine, asm: SkillEngine.Runtime}
+      data:
+        guid: 72a90ef0-d3b1-4b15-a65c-9125fc35a54a
+        name: New Vector 3
+        input: 1
+        settings:
+          id: 8
+        val: {x: 0, y: 0, z: 0}
+    00000006:
+      type: {class: FloatParameter, ns: SkillEngine, asm: SkillEngine.Runtime}
+      data:
+        guid: 1f02283b-7afb-4e08-8aab-b46633aa6d90
+        name: New Float
+        input: 1
+        settings:
+          id: 9
+        val: 100
+    00000007:
+      type: {class: StringParameter, ns: SkillEngine, asm: SkillEngine.Runtime}
+      data:
+        guid: 54c6fd05-ebad-46db-aed4-dba03d42831f
+        name: New String
+        input: 1
+        settings:
+          id: 10
+        val: 1232
+    00000008:
+      type: {class: ExposedParameter/Settings, ns: SkillEngine, asm: SkillEngine.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: 72a90ef0-d3b1-4b15-a65c-9125fc35a54a
+    00000009:
+      type: {class: FloatParameter/FloatSettings, ns: SkillEngine, asm: SkillEngine.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: 1f02283b-7afb-4e08-8aab-b46633aa6d90
+        mode: 0
+        min: 0
+        max: 1
+    0000000A:
+      type: {class: ExposedParameter/Settings, ns: SkillEngine, asm: SkillEngine.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: 54c6fd05-ebad-46db-aed4-dba03d42831f

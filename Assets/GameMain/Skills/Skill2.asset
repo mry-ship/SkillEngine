@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e75a11be274939ba3831fb887ec73c, type: 3}
+  m_Name: Skill2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  nodes:
+  - id: 0
+  - id: 1
+  - id: 2
+  - id: 3
+  - id: 4
+  edges:
+  - GUID: c77c9ffc-aea9-4813-bde6-3daedde73ca1
+    inputNodeGUID: b8531e37-2953-423c-a193-32dbd0d22d3d
+    outputNodeGUID: 8f623443-7f5e-4b20-9aaf-46ed08d4d550
+    inputFieldName: start
+    inputPortAcceptMultipleEdges: 0
+    outputFieldName: startPoint
+    outputPortacceptMultipleEdges: 1
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 602b5c7d-b985-4b0c-aa66-b2eb5a0ec5ea
+    inputNodeGUID: 19ccf11a-df06-4d06-b2c2-309427c8515c
+    outputNodeGUID: b8531e37-2953-423c-a193-32dbd0d22d3d
+    inputFieldName: start
+    inputPortAcceptMultipleEdges: 0
+    outputFieldName: end
+    outputPortacceptMultipleEdges: 1
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: d5d6e94b-1923-4634-b0c8-4f4878f1ed96
+    inputNodeGUID: ba9526fd-5382-4f76-ae45-3d6620746f70
+    outputNodeGUID: 19ccf11a-df06-4d06-b2c2-309427c8515c
+    inputFieldName: start
+    inputPortAcceptMultipleEdges: 0
+    outputFieldName: end
+    outputPortacceptMultipleEdges: 1
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  pinnedElements: []
+  exposedParameters: []
+  startNodeGUID: 8f623443-7f5e-4b20-9aaf-46ed08d4d550
+  references:
+    version: 1
+    00000000:
+      type: {class: StartNode, ns: Lomo, asm: Assembly-CSharp}
+      data:
+        GUID: 8f623443-7f5e-4b20-9aaf-46ed08d4d550
+        nodeCustomName: 
+        position:
+          serializedVersion: 2
+          x: 238.11348
+          y: -73.49997
+          width: 292
+          height: 75
+        expanded: 0
+        nodeLock: 0
+    00000001:
+      type: {class: TestNode, ns: Lomo, asm: Assembly-CSharp}
+      data:
+        GUID: ba9526fd-5382-4f76-ae45-3d6620746f70
+        nodeCustomName: 
+        position:
+          serializedVersion: 2
+          x: 1234.569
+          y: 436.01187
+          width: 289
+          height: 99
+        expanded: 0
+        nodeLock: 0
+        test: 2
+    00000002:
+      type: {class: TestNode, ns: Lomo, asm: Assembly-CSharp}
+      data:
+        GUID: ca7e343d-0719-4e8d-95fe-57b8cc102af9
+        nodeCustomName: 
+        position:
+          serializedVersion: 2
+          x: 1962.569
+          y: 416.0118
+          width: 289
+          height: 99
+        expanded: 0
+        nodeLock: 0
+        test: 13212
+    00000003:
+      type: {class: TestNode, ns: Lomo, asm: Assembly-CSharp}
+      data:
+        GUID: 19ccf11a-df06-4d06-b2c2-309427c8515c
+        nodeCustomName: 
+        position:
+          serializedVersion: 2
+          x: 554.99286
+          y: 292.81317
+          width: 287
+          height: 99
+        expanded: 0
+        nodeLock: 0
+        test: 
+    00000004:
+      type: {class: TestNode, ns: Lomo, asm: Assembly-CSharp}
+      data:
+        GUID: b8531e37-2953-423c-a193-32dbd0d22d3d
+        nodeCustomName: 
+        position:
+          serializedVersion: 2
+          x: 728.872
+          y: -36
+          width: 298
+          height: 99
+        expanded: 0
+        nodeLock: 0
+        test: 
